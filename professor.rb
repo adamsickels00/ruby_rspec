@@ -9,12 +9,8 @@ class Professor
     def teach
         "Here is some knowledge"
     end
-
-    def switch_subjects(subject)
-        @subject = subject
-    end
     
-    def problem
-        "Cannot hear students"
+    def has_sound?
+        false
     end
 end
