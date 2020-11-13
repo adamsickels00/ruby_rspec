@@ -1,6 +1,6 @@
 require_relative '../professor'
 describe Professor do
-    p = Professor.new("Paul","CSE",9.9)
+    p = Professor.new('Paul')
     it 'can teach' do
         expect(p.teach).to include('some knowledge')
     end
