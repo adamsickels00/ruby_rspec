@@ -1,20 +1,14 @@
 class Professor
-    attr_accessor :name, :subject, :rating
-    def initialize(name,subject,rating)
+    attr_accessor :name
+    def initialize(name)
         @name = name
-        @subject = subject
-        @rating = rating
     end
 
     def teach
         "Here is some knowledge"
     end
 
-    def switch_subjects(subject)
-        @subject = subject
-    end
-    
-    def problem
-        "Cannot hear students"
+    def has_sound?
+        false
     end
 end
